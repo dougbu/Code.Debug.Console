@@ -1,6 +1,7 @@
 ﻿{
   "version": "1.0.0-*",
   "compilationOptions": {
+    "debugType": "portable",
     "emitEntryPoint": true
   },
 

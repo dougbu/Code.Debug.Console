@@ -6,18 +6,19 @@
 			"type": "coreclr",
 			"request": "launch",
 			"preLaunchTask": "build",
-			"program": "/Users/dougbu/AppData/Local/Microsoft/dotnet/dotnet.exe",
-			"args": ["bin/Debug/netcoreapp1.0/Code.Debug.Console.dll"],
+			"program": "${workspaceRoot}/bin/Debug/netcoreapp1.0/Code.Debug.Console.dll",
+			"args": [],
 			"cwd": "${workspaceRoot}",
-			"stopAtEntry": false
+			"stopAtEntry": false,
+			"justMyCode": false, "symbolPath": []
 		},
 		{
 			"name": ".NET Core Launch (web)",
 			"type": "coreclr",
 			"request": "launch",
 			"preLaunchTask": "build",
-			"program": "/Users/dougbu/AppData/Local/Microsoft/dotnet/dotnet.exe",
-			"args": ["bin/Debug/netcoreapp1.0/Code.Debug.Console.dll"],
+			"program": "${workspaceRoot}/bin/Debug/netcoreapp1.0/Code.Debug.Console.dll",
+			"args": [],
 			"cwd": "${workspaceRoot}",
 			"stopAtEntry": false,
 			"launchBrowser": {
@@ -33,13 +34,15 @@
 				"linux": {
 					"command": "xdg-open"
 				}
-			}
+			},
+			"justMyCode": false
 		},
 		{
 			"name": ".NET Core Attach",
 			"type": "coreclr",
 			"request": "attach",
-			"processName": "<example>"
+			"processName": "dotnet",
+			"justMyCode": false
 		}
 	]
 }
